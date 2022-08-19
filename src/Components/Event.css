@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'noelan';
+    src: local('noelan'),
+        url(../../public/assets/font/NOELAN_1.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    font-family: 'noelan';
+    font-size: 44px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.accordion__header .btn {
+    position: relative;
+    font-size: 14px;
+    color: #000;
+}
+
+.accordion__header .btn:focus {
+    --bs-btn-focus-shadow-rgb: 0 !important;
+}
+
+
+
+.accordion__item-subheading {
+    text-align: start;
+    font-weight: 400;
+}
+
+.acoordion-item-desc {
+    color: gray;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.accordion-item-align {
+    font-weight: 700;
+    text-align: start;
+}
+
+.accordion-item-button {
+    display: table !important;
+}
+
+@media screen and (min-width: 992px) {
+    .subtitle {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .title {
+        font-size: 32px;
+    }
+}
