@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.0af80e02.css",
+    "main.js": "/wedding/static/js/main.fc9872b0.js",
+    "static/media/NOELAN_1.ttf": "/wedding/static/media/NOELAN_1.9b5dd9e56deee4ca8998.ttf",
+    "index.html": "/wedding/index.html",
+    "main.0af80e02.css.map": "/wedding/static/css/main.0af80e02.css.map",
+    "main.fc9872b0.js.map": "/wedding/static/js/main.fc9872b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0af80e02.css",
+    "static/js/main.fc9872b0.js"
+  ]
+}
