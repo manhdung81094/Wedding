@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Test() {
+function Header() {
     return (
         <div id="carousel-banner-img" className="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
@@ -35,8 +35,6 @@ export default function Test() {
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
-
-
     )
 }
-
+export default Header;

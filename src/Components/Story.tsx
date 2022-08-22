@@ -2,7 +2,7 @@ import React from 'react'
 
 function Story() {
     return (
-        <section className='love-story'>
+        <section className='love-story mt-5' id='story'>
             <div className='container'>
                 <div>
                     <div className="love-story__flowers d-flex justify-content-center">

@@ -30,6 +30,44 @@
     height: 100%;
 }
 
+.btn-modal-attend {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color) !important;
+}
+
+.modal-header-image {
+    background-image:
+        url(../../public/assets/images/rsvp-corner-img-1.png),
+        url(../../public/assets/images/rsvp-corner-img-2.png);
+    background-repeat: no-repeat;
+    background-position: top left, top right;
+    height: 50px;
+}
+
+.modal-footer-image {
+    background-image:
+        url(../../public/assets/images/rsvp-corner-img-4.png),
+        url(../../public/assets/images/rsvp-corner-img-3.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    height: 50px;
+}
+
+.btn-modal-send {
+    background-image: url(../../public/assets/images/btn-img-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain !important;
+    width: 100%;
+    padding: 20px 70px !important;
+}
+
+.input-focus:focus {
+    box-shadow: none !important;
+}
+
+
 @media screen and (max-width: 440px) {
     .title-special {
         font-size: 30px;
